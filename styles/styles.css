@@ -1,0 +1,211 @@
+@import url('reset.css');
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 970px;
+}
+#header {
+    width: inherit;
+    display: inline-block;
+}
+
+#header img {
+    width: 90px;
+    position: absolute;
+}
+
+#header h1 {
+    font-size: 50px;
+    color: #474747;
+    letter-spacing: 2px;
+    margin: 25px 0 0 95px;
+}
+
+#header h2 {
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px;
+    background: linear-gradient(#27639a,#5383aa,#27639a)
+}
+
+.blue {
+    color: #27659e;
+}
+
+.red {
+    color: red;
+}
+
+#body {
+    width: inherit;
+    height: 400px;
+    display: inline-block;
+    background: linear-gradient(#e3e3e3,#ffffff,#ffffff);
+}
+
+#col-left{
+    width: 230px;
+    display: inline-block; 
+    padding-top: 10px; 
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+}
+
+.left-first {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+#col-left p:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+.btn-blue {
+    background: linear-gradient(#5d95bf,#2a689e);
+}
+
+.btn-orange {
+    background: linear-gradient(#e9a855,#ed753c);
+    margin-bottom: 15px;
+}
+
+#career .btn-lite-blue {
+    background: linear-gradient(#7ad1df,#5ac5df);
+    box-shadow: none;
+    margin-top: 30px;
+}
+
+#col-right {
+    width: 650px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 0 50px;
+}
+
+.home {
+    width: 20px;
+}
+
+.phone {
+    width: 40px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.lite-blue {
+    color: #479db3;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.thin {
+    text-transform: uppercase;
+    color: #3a76a8;
+    display: inline-block;
+    vertical-align: inherit;
+    margin-top: 5px;
+    margin-right: 340px;
+}
+
+.contact p {
+    font-size: 11px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #7a7a7a;
+}
+
+.contact h3 {
+    color: #5bc5e0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#col-right h1 {
+    color: #2e6ba2;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.client-server {
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#col-right ul, ol {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#col-right ol li {
+list-style: decimal;
+}
+
+.html {
+    margin-top: 20px;
+	border-top: 5px #0084df solid;
+	border-right: 5px #0084df solid;
+	border-left: 5px #0084df solid;
+}
+
+.html img {
+    width: 100px;
+    display: inline-block;
+}
+
+.html div {
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+}
+
+#col-right li {
+    list-style-type: disc;
+    margin-top: 5px;
+}
+
+#career {
+    height: 330px;
+    background: url("../images/ad_background.png");
+    margin-top: 10px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#career img {
+    width: 90px;
+    margin-top: 10px;
+}
+
+.ad {
+    font-size: 25px;
+}
+
+.btn {
+    text-transform: uppercase;
+    text-align: center;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid black;
+    padding-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 2px 2px gray;
+}
